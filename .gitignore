@@ -19,7 +19,6 @@ build/
 # Database
 dev.db
 dev.db-journal
-data/
 
 # Logs
 *.log
@@ -34,5 +33,5 @@ Thumbs.db
 *.swp
 *.swo
 
-# Docker
-.docker/
+# Vercel
+.vercel

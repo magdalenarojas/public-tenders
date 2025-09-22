@@ -14,7 +14,7 @@ Sistema completo para la gestión de licitaciones públicas adjudicadas, product
 
 - **Frontend**: Next.js 15 con TypeScript
 - **Styling**: Tailwind CSS
-- **Base de Datos**: SQLite con Prisma ORM
+- **Base de Datos**: SQLite (desarrollo) / PostgreSQL (producción) con Prisma ORM
 - **Iconos**: Lucide React
 - **Validaciones**: Lógica de negocio personalizada
 
@@ -31,14 +31,25 @@ Sistema completo para la gestión de licitaciones públicas adjudicadas, product
    npm install
    ```
 
-2. **Configurar base de datos**:
+2. **Configurar variables de entorno**:
+
+   ```bash
+   # Copiar archivo de ejemplo
+   cp .env.example .env.local
+
+   # Editar .env.local con tu configuración
+   # Para desarrollo local con SQLite (recomendado):
+   DATABASE_URL="file:./dev.db"
+   ```
+
+3. **Configurar base de datos**:
 
    ```bash
    npx prisma generate
    npx prisma db push
    ```
 
-3. **Poblar con datos de ejemplo** (opcional):
+4. **Poblar con datos de ejemplo** (opcional):
 
    ```bash
    npm run seed
@@ -46,13 +57,13 @@ Sistema completo para la gestión de licitaciones públicas adjudicadas, product
 
    **Nota**: Los datos se cargan desde archivos JSON en la carpeta `seed/`. Puedes modificar estos archivos para personalizar los datos de ejemplo.
 
-4. **Ejecutar en desarrollo**:
+5. **Ejecutar en desarrollo**:
 
    ```bash
    npm run dev
    ```
 
-5. **Abrir en el navegador**:
+6. **Abrir en el navegador**:
    ```
    http://localhost:3000
    ```
@@ -116,50 +127,6 @@ src/
    - Margen = (precio - costo) × cantidad
    - Margen total por licitación = suma de márgenes de productos
 
-## 📈 API Endpoints
-
-### Productos
-
-- `GET /api/products` - Listar productos
-- `POST /api/products` - Crear producto
-- `GET /api/products/[id]` - Obtener producto
-- `PUT /api/products/[id]` - Actualizar producto
-- `DELETE /api/products/[id]` - Eliminar producto
-
-### Licitaciones
-
-- `GET /api/tenders` - Listar licitaciones
-- `POST /api/tenders` - Crear licitación
-- `GET /api/tenders/[id]` - Obtener licitación
-- `DELETE /api/tenders/[id]` - Eliminar licitación
-
-### Estadísticas
-
-- `GET /api/stats` - Estadísticas generales
-
-## 🔧 Desarrollo
-
-### Comandos Disponibles
-
-```bash
-# Desarrollo
-npm run dev          # Servidor de desarrollo
-
-# Base de datos
-npx prisma studio    # Interfaz visual de la BD
-npx prisma db push   # Aplicar cambios al esquema
-npx prisma generate  # Generar cliente
-
-# Datos
-npm run seed         # Poblar con datos de ejemplo
-npm run reset        # Limpiar base de datos
-npm run reset:seed   # Limpiar y poblar con datos de ejemplo
-
-# Producción
-npm run build        # Construir para producción
-npm run start        # Servidor de producción
-```
-
 ### Archivos de Seed
 
 Los datos de ejemplo se cargan desde archivos JSON en la carpeta `seed/`:
@@ -177,8 +144,6 @@ El esquema incluye tres entidades principales:
 - **Tender**: Licitaciones con cliente y fecha
 - **Product**: Productos con SKU, precios y costos
 - **Order**: Relación muchos-a-muchos entre licitaciones y productos
-
-
 
 ### Acceso a Servicios
 

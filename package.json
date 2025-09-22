@@ -15,7 +15,8 @@
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
     "docker:logs": "docker-compose logs -f",
-    "docker:restart": "docker-compose restart"
+    "docker:restart": "docker-compose restart",
+    "migrate:production": "node scripts/migrate-production.js"
   },
   "dependencies": {
     "@prisma/client": "^6.16.2",

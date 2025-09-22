@@ -19,6 +19,13 @@ function readSeedFile(filename: string): any[] {
 async function main() {
   console.log("🌱 Iniciando seed de la base de datos...");
 
+  // Limpiar la base de datos primero
+  console.log("🧹 Limpiando base de datos existente...");
+  await prisma.order.deleteMany();
+  await prisma.tender.deleteMany();
+  await prisma.product.deleteMany();
+  console.log("✅ Base de datos limpiada");
+
   // Leer datos de los archivos JSON
   const productsData = readSeedFile("products.json");
   const tendersData = readSeedFile("tenders.json");
