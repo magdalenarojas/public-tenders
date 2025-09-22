@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  # Base de datos PostgreSQL
+  postgres:
+    image: postgres:15-alpine
+    container_name: public-tenders-db
+    environment:
+      POSTGRES_DB: public_tenders
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      # Persistencia local - los datos se guardan en ./data/postgres
+      - ./data/postgres:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # Aplicación Next.js (solo para desarrollo)
+  app:
+    build: .
+    container_name: public-tenders-app
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres123@postgres:5432/public_tenders
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
+
+volumes:
+  # Los datos se almacenan localmente en ./data/postgres

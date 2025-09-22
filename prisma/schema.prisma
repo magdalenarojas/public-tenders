@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "sqlite"
+    url      = env("DATABASE_URL")
+}
+
+model Tender {
+    id              String    @id @default(cuid())
+    client          String
+    awardDate       DateTime  @map("award_date")
+    deliveryDate    DateTime? @map("delivery_date")
+    deliveryAddress String?   @map("delivery_address")
+    contactPhone    String?   @map("contact_phone")
+    contactEmail    String?   @map("contact_email")
+    margin          Float?    @default(0.4)
+    createdAt       DateTime  @default(now()) @map("created_at")
+    updatedAt       DateTime  @updatedAt @map("updated_at")
+
+    // Relaciones
+    orders Order[]
+
+    @@map("tenders")
+}
+
+model Product {
+    id          String   @id @default(cuid())
+    name        String
+    sku         String   @unique
+    description String?  @default("")
+    salePrice   Float    @map("sale_price")
+    costPrice   Float    @map("cost_price")
+    createdAt   DateTime @default(now()) @map("created_at")
+    updatedAt   DateTime @updatedAt @map("updated_at")
+
+    // Relaciones
+    orders Order[]
+
+    @@map("products")
+}
+
+model Order {
+    id          String   @id @default(cuid())
+    quantity    Int
+    price       Float?   @default(0)
+    observation String?  @default("")
+    createdAt   DateTime @default(now()) @map("created_at")
+    updatedAt   DateTime @updatedAt @map("updated_at")
+
+    // Claves foráneas
+    tenderId  String @map("tender_id")
+    productId String @map("product_id")
+
+    // Relaciones
+    tender  Tender  @relation(fields: [tenderId], references: [id], onDelete: Cascade)
+    product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+    @@map("orders")
+}

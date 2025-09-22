@@ -1,0 +1,345 @@
+[
+  {
+    "tenderIndex": 5,
+    "productIndex": 0,
+    "quantity": 1,
+    "price": 35000,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 5,
+    "productIndex": 1,
+    "quantity": 1,
+    "price": 32200,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 5,
+    "productIndex": 2,
+    "quantity": 24,
+    "price": 21000,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 3,
+    "quantity": 1,
+    "price": 280,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 4,
+    "quantity": 1,
+    "price": 1726,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 5,
+    "productIndex": 5,
+    "quantity": 24,
+    "price": 1174729,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 6,
+    "quantity": 1584,
+    "price": 374,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 7,
+    "quantity": 3476,
+    "price": 308,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 5,
+    "productIndex": 8,
+    "quantity": 2,
+    "price": 4668,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 9,
+    "quantity": 6873,
+    "price": 251,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 10,
+    "quantity": 264,
+    "price": 1443,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 11,
+    "quantity": 2027,
+    "price": 1141,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 12,
+    "quantity": 703,
+    "price": 1103,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 13,
+    "quantity": 3476,
+    "price": 549,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 14,
+    "quantity": 703,
+    "price": 490,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 15,
+    "quantity": 2027,
+    "price": 521,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 16,
+    "quantity": 264,
+    "price": 1011,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 17,
+    "quantity": 703,
+    "price": 188,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 5,
+    "productIndex": 18,
+    "quantity": 1,
+    "price": 1800673,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 19,
+    "quantity": 2291,
+    "price": 90,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 20,
+    "quantity": 264,
+    "price": 776,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 21,
+    "quantity": 967,
+    "price": 3499,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 22,
+    "quantity": 8694,
+    "price": 559,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 23,
+    "quantity": 2291,
+    "price": 559,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 24,
+    "quantity": 6,
+    "price": 1707,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 25,
+    "quantity": 20,
+    "price": 1240,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 26,
+    "quantity": 3,
+    "price": 1821,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 27,
+    "quantity": 264,
+    "price": 70,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 28,
+    "quantity": 949,
+    "price": 160,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 29,
+    "quantity": 10,
+    "price": 1333,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 30,
+    "quantity": 10,
+    "price": 2880,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 31,
+    "quantity": 5,
+    "price": 1485,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 32,
+    "quantity": 1,
+    "price": 1442,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 33,
+    "quantity": 18,
+    "price": 1348,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 34,
+    "quantity": 90,
+    "price": 1295,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 35,
+    "quantity": 2,
+    "price": 3256,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 6,
+    "productIndex": 36,
+    "quantity": 25,
+    "price": 238,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 37,
+    "quantity": 703,
+    "price": 1630,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 38,
+    "quantity": 2027,
+    "price": 1054,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 39,
+    "quantity": 264,
+    "price": 2358,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 40,
+    "quantity": 4582,
+    "price": 153,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 41,
+    "quantity": 264,
+    "price": 301,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 42,
+    "quantity": 9536,
+    "price": 97,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 43,
+    "quantity": 7245,
+    "price": 59,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 44,
+    "quantity": 2291,
+    "price": 251,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 45,
+    "quantity": 6081,
+    "price": 231,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 46,
+    "quantity": 500,
+    "price": 160,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 47,
+    "quantity": 2027,
+    "price": 185,
+    "observation": ""
+  },
+  {
+    "tenderIndex": 7,
+    "productIndex": 48,
+    "quantity": 703,
+    "price": 3167,
+    "observation": ""
+  }
+]

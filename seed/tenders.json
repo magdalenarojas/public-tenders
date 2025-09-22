@@ -1,0 +1,119 @@
+[
+  {
+    "client": "I MUNICIPALIDAD DE CARTAGENA",
+    "awardDate": "2024-11-29",
+    "deliveryDate": "2024-12-29",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "I MUNICIPALIDAD DE LAJA",
+    "awardDate": "2024-08-08",
+    "deliveryDate": "2024-09-07",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "SERVICIO LOCAL DE EDUCACION DE CHINCHORRO",
+    "awardDate": "2025-02-03",
+    "deliveryDate": "2025-03-05",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "I MUNICIPALIDAD DE FRUTILLAR",
+    "awardDate": "2023-11-22",
+    "deliveryDate": "2023-12-22",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "UNIVERSIDAD DE LA FRONTERA",
+    "awardDate": "2024-03-01",
+    "deliveryDate": "2024-03-31",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "I MUNICIPALIDAD DE OSORNO",
+    "awardDate": "2025-02-13",
+    "deliveryDate": "2025-03-15",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "UNIVERSIDAD DE CHILE",
+    "awardDate": "2025-05-15",
+    "deliveryDate": "2025-06-14",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "I MUNICIPALIDAD DE SAN CLEMENTE",
+    "awardDate": "2025-06-23",
+    "deliveryDate": "2025-07-23",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "COMANDO DE APOYO A LA FUERZA",
+    "awardDate": "2024-08-22",
+    "deliveryDate": "2024-09-21",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+    "awardDate": "2023-12-12",
+    "deliveryDate": "2024-01-11",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "I MUNICIPALIDAD DE COLINA",
+    "awardDate": "2025-05-30",
+    "deliveryDate": "2025-06-29",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "I MUNICIPALIDAD DE MAIPU",
+    "awardDate": "2025-06-05",
+    "deliveryDate": "2025-07-05",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  },
+  {
+    "client": "DIRECCION DE LOGISTICA DE CARABINEROS",
+    "awardDate": "2024-01-24",
+    "deliveryDate": "2024-02-23",
+    "deliveryAddress": "Direccion de Prueba 9999, San Fernando",
+    "contactPhone": "56997256637",
+    "contactEmail": "prueba@prueba.cl",
+    "margin": 0.4
+  }
+]

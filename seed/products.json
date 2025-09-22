@@ -1,0 +1,345 @@
+[
+  {
+    "name": "SOFTWARE DOCENTE",
+    "sku": "2000000013651",
+    "description": "",
+    "salePrice": 35000,
+    "costPrice": 25000
+  },
+  {
+    "name": "Factura Ingram 2500906",
+    "sku": "2000000012799",
+    "description": "",
+    "salePrice": 32200,
+    "costPrice": 23000
+  },
+  {
+    "name": "LICENCIAS OFFICE HOME 2024",
+    "sku": "2000000013731",
+    "description": "",
+    "salePrice": 21000,
+    "costPrice": 15000
+  },
+  {
+    "name": "bolsas tnt",
+    "sku": "2000000024594",
+    "description": "",
+    "salePrice": 280,
+    "costPrice": 200
+  },
+  {
+    "name": "7260 Goma mediana",
+    "sku": "2000000024595",
+    "description": "",
+    "salePrice": 1726,
+    "costPrice": 1233
+  },
+  {
+    "name": "ALL IN ONE ASUS",
+    "sku": "1000000044595",
+    "description": "",
+    "salePrice": 1174729,
+    "costPrice": 839092
+  },
+  {
+    "name": "CARPETAS PLASTIFICADAS (ROJO AZUL NARANJO CELESTE NEGRO VERDE)",
+    "sku": "1000000089394",
+    "description": "",
+    "salePrice": 374,
+    "costPrice": 267
+  },
+  {
+    "name": "TIJERA ESCOLAR MANGO PLASTICO",
+    "sku": "1000000089411",
+    "description": "",
+    "salePrice": 308,
+    "costPrice": 220
+  },
+  {
+    "name": "HUB ADAPTADOR USB TIPO C 8 EN 1",
+    "sku": "2000000012798",
+    "description": "",
+    "salePrice": 4668,
+    "costPrice": 3334
+  },
+  {
+    "name": "LAPICES TINTA GEL (AZUL ROJO NEGRO) 1 de cada color por kit",
+    "sku": "1000000089401",
+    "description": "",
+    "salePrice": 251,
+    "costPrice": 179
+  },
+  {
+    "name": "ARCHIVADOR OFICIO ANCHO",
+    "sku": "1000000089386",
+    "description": "",
+    "salePrice": 1443,
+    "costPrice": 1031
+  },
+  {
+    "name": "BLOCK MEDIUM 99 1/8 20 HJS",
+    "sku": "1000000089388",
+    "description": "",
+    "salePrice": 1141,
+    "costPrice": 815
+  },
+  {
+    "name": "BOLSON DE CARTULINA DE COLORES 18 HJS",
+    "sku": "1000000089390",
+    "description": "",
+    "salePrice": 1103,
+    "costPrice": 788
+  },
+  {
+    "name": "CAJA DE LAPICES DE 12 COLORES LARGOS HEXAGONALES",
+    "sku": "1000000089391",
+    "description": "",
+    "salePrice": 549,
+    "costPrice": 392
+  },
+  {
+    "name": "TIJERA PREESCOLAR 5\"",
+    "sku": "1000000089412",
+    "description": "",
+    "salePrice": 490,
+    "costPrice": 350
+  },
+  {
+    "name": "ADHESIVO EN BARRA 35 GR",
+    "sku": "1000000089384",
+    "description": "",
+    "salePrice": 521,
+    "costPrice": 372
+  },
+  {
+    "name": "BLOCK OFICIO EMPASTADO MAT-7 80 HJ",
+    "sku": "1000000089389",
+    "description": "",
+    "salePrice": 1011,
+    "costPrice": 722
+  },
+  {
+    "name": "LAPIZ JUMBO GRAFITO TRIANGULAR",
+    "sku": "1000000089403",
+    "description": "",
+    "salePrice": 188,
+    "costPrice": 134
+  },
+  {
+    "name": "IMAC M3",
+    "sku": "1000000044596",
+    "description": "",
+    "salePrice": 1800673,
+    "costPrice": 1286195
+  },
+  {
+    "name": "MINAS 07 MM 2B ESTUCHE 12 UNIDADES",
+    "sku": "1000000089405",
+    "description": "",
+    "salePrice": 90,
+    "costPrice": 64
+  },
+  {
+    "name": "ADHESIVO EN BARRA 40 GR",
+    "sku": "1000000089385",
+    "description": "",
+    "salePrice": 776,
+    "costPrice": 554
+  },
+  {
+    "name": "BLOCK DE 1/4 DOBLE FAZ 180 GR",
+    "sku": "1000000089387",
+    "description": "",
+    "salePrice": 3499,
+    "costPrice": 2499
+  },
+  {
+    "name": "CUADERNOS COLLEGE 7MM 80 HJS",
+    "sku": "1000000089396",
+    "description": "",
+    "salePrice": 559,
+    "costPrice": 399
+  },
+  {
+    "name": "PORTAMINA 07",
+    "sku": "1000000089406",
+    "description": "",
+    "salePrice": 559,
+    "costPrice": 399
+  },
+  {
+    "name": "Desktops GAMA 3",
+    "sku": "1000000087962",
+    "description": "",
+    "salePrice": 1707,
+    "costPrice": 1219
+  },
+  {
+    "name": "Desktops GAMA 2",
+    "sku": "1000000087963",
+    "description": "",
+    "salePrice": 1240,
+    "costPrice": 886
+  },
+  {
+    "name": "Desktop - Formato Tiny o Slim",
+    "sku": "1000000087964",
+    "description": "",
+    "salePrice": 1821,
+    "costPrice": 1301
+  },
+  {
+    "name": "REGLA 20 CM",
+    "sku": "1000000089407",
+    "description": "",
+    "salePrice": 70,
+    "costPrice": 50
+  },
+  {
+    "name": "REGLA 30 CM",
+    "sku": "1000000090080",
+    "description": "",
+    "salePrice": 160,
+    "costPrice": 114
+  },
+  {
+    "name": "Ultrabook TOP",
+    "sku": "1000000087965",
+    "description": "",
+    "salePrice": 1333,
+    "costPrice": 952
+  },
+  {
+    "name": "Notebook UTRA TOP",
+    "sku": "1000000087966",
+    "description": "",
+    "salePrice": 2880,
+    "costPrice": 2057
+  },
+  {
+    "name": "Ultrabook Tactil",
+    "sku": "1000000087967",
+    "description": "",
+    "salePrice": 1485,
+    "costPrice": 1061
+  },
+  {
+    "name": "Notebooks GAMA 3",
+    "sku": "1000000087968",
+    "description": "",
+    "salePrice": 1442,
+    "costPrice": 1030
+  },
+  {
+    "name": "Notebooks GAMA 2",
+    "sku": "1000000087969",
+    "description": "",
+    "salePrice": 1348,
+    "costPrice": 963
+  },
+  {
+    "name": "Notebooks GAMA 1",
+    "sku": "1000000087970",
+    "description": "",
+    "salePrice": 1295,
+    "costPrice": 925
+  },
+  {
+    "name": "Workstation",
+    "sku": "1000000087972",
+    "description": "",
+    "salePrice": 3256,
+    "costPrice": 2326
+  },
+  {
+    "name": "Docking Station",
+    "sku": "1000000087973",
+    "description": "",
+    "salePrice": 238,
+    "costPrice": 170
+  },
+  {
+    "name": "CAJA LAPICES DE COLORES JUMBO 12 COLORES HEXAGONALES",
+    "sku": "1000000089392",
+    "description": "",
+    "salePrice": 1630,
+    "costPrice": 1164
+  },
+  {
+    "name": "CAJA LAPICES PASTEL OIL 12 COLORES",
+    "sku": "1000000089393",
+    "description": "",
+    "salePrice": 1054,
+    "costPrice": 753
+  },
+  {
+    "name": "CROQUERA OFICIO 100 H BOND",
+    "sku": "1000000089395",
+    "description": "",
+    "salePrice": 2358,
+    "costPrice": 1684
+  },
+  {
+    "name": "DESTACADORES",
+    "sku": "1000000089397",
+    "description": "",
+    "salePrice": 153,
+    "costPrice": 109
+  },
+  {
+    "name": "ESCUADRA 60X25",
+    "sku": "1000000089398",
+    "description": "",
+    "salePrice": 301,
+    "costPrice": 215
+  },
+  {
+    "name": "GOMA DE BORRAR MIGA MEDIANA",
+    "sku": "1000000089399",
+    "description": "",
+    "salePrice": 97,
+    "costPrice": 69
+  },
+  {
+    "name": "LAPICES GRAFITO N° B HEXAGONALES",
+    "sku": "1000000089400",
+    "description": "",
+    "salePrice": 59,
+    "costPrice": 42
+  },
+  {
+    "name": "LAPIZ CORRECTOR LIQUIDO",
+    "sku": "1000000089402",
+    "description": "",
+    "salePrice": 251,
+    "costPrice": 179
+  },
+  {
+    "name": "MARCADORES PERMANENTES (AZUL NEGRO Y Rojo",
+    "sku": "1000000089404",
+    "description": "",
+    "salePrice": 231,
+    "costPrice": 165
+  },
+  {
+    "name": "REGLA 30 CM",
+    "sku": "1000000089408",
+    "description": "",
+    "salePrice": 160,
+    "costPrice": 114
+  },
+  {
+    "name": "SACAPUNTA SIMPLE CON DEPOSITO",
+    "sku": "1000000089409",
+    "description": "",
+    "salePrice": 185,
+    "costPrice": 132
+  },
+  {
+    "name": "TEMPERA SOLIDA 12 COLORES",
+    "sku": "1000000089410",
+    "description": "",
+    "salePrice": 3167,
+    "costPrice": 2262
+  }
+]

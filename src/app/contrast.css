@@ -1,0 +1,179 @@
+/* Estilos específicos para mejorar contraste - Versión equilibrada */
+
+/* Solo mejorar textos que son demasiado claros */
+.text-gray-400 {
+  color: #4b5563 !important; /* Mejorar contraste significativamente */
+}
+
+.text-gray-300 {
+  color: #6b7280 !important; /* Mejorar contraste significativamente */
+}
+
+/* Preservar colores de acento importantes */
+.text-blue-600, .text-blue-500 {
+  color: #2563eb !important; /* Mantener azul para enlaces */
+}
+
+.text-green-600, .text-green-500 {
+  color: #16a34a !important; /* Mantener verde para elementos positivos */
+}
+
+.text-red-600, .text-red-500 {
+  color: #dc2626 !important; /* Mantener rojo para advertencias */
+}
+
+/* Mejorar solo textos secundarios que son muy claros */
+.text-gray-500 {
+  color: #6b7280 !important; /* Mejorar contraste moderadamente */
+}
+
+/* Mantener jerarquía visual en títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #111827; /* Títulos oscuros para contraste */
+}
+
+/* Preservar colores de estado */
+.text-emerald-600, .text-emerald-500 {
+  color: #059669 !important;
+}
+
+.text-orange-600, .text-orange-500 {
+  color: #ea580c !important;
+}
+
+.text-purple-600, .text-purple-500 {
+  color: #9333ea !important;
+}
+
+/* Mantener colores de fondo y elementos interactivos */
+.bg-blue-600 {
+  background-color: #2563eb !important;
+}
+
+.bg-green-600 {
+  background-color: #16a34a !important;
+}
+
+.bg-red-600 {
+  background-color: #dc2626 !important;
+}
+
+/* Solo mejorar textos que son realmente muy claros */
+.text-gray-200 {
+  color: #9ca3af !important; /* Mejorar contraste significativamente */
+}
+
+.text-gray-100 {
+  color: #d1d5db !important; /* Mejorar contraste significativamente */
+}
+
+/* Agregar estilos para otros tonos de gris que puedan estar muy claros */
+.text-gray-500 {
+  color: #4b5563 !important; /* Mejorar contraste moderadamente */
+}
+
+/* Forzar mejor contraste en elementos específicos que suelen ser muy claros */
+.text-muted, .text-secondary {
+  color: #4b5563 !important;
+}
+
+/* Corregir colores de productos y precios */
+.font-medium {
+  color: #1f2937 !important; /* Texto principal más oscuro */
+}
+
+/* Asegurar que los nombres de productos y precios sean legibles */
+.product-name, .product-price {
+  color: #1f2937 !important;
+}
+
+/* Corregir textos que pueden estar en gris */
+.text-gray-500 {
+  color: #4b5563 !important; /* Mejorar contraste */
+}
+
+/* Asegurar que todos los textos importantes sean legibles */
+span.font-medium, .font-medium {
+  color: #1f2937 !important;
+}
+
+/* Corregir textos en listas y tablas */
+.text-sm .font-medium {
+  color: #1f2937 !important;
+}
+
+/* Asegurar que los precios y nombres sean legibles */
+.text-right .font-medium {
+  color: #1f2937 !important;
+}
+
+/* Mejorar contraste en formularios */
+input[type="text"], 
+input[type="number"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="date"],
+textarea {
+  color: #1f2937 !important; /* Texto más oscuro en inputs */
+}
+
+/* Asegurar que los valores de los inputs sean legibles */
+input:not([type="checkbox"]):not([type="radio"]) {
+  color: #1f2937 !important;
+}
+
+/* Mejorar contraste en labels de formularios */
+label {
+  color: #374151 !important; /* Labels más oscuros */
+}
+
+/* Asegurar que los placeholders también tengan buen contraste */
+input::placeholder {
+  color: #6b7280 !important; /* Placeholder con mejor contraste */
+}
+
+/* Estilos específicos para formularios de la aplicación */
+.form-input {
+  color: #1f2937 !important;
+}
+
+/* Asegurar que todos los inputs tengan texto oscuro */
+.w-full input, 
+.w-full textarea {
+  color: #1f2937 !important;
+}
+
+/* Mejorar contraste en selects */
+select {
+  color: #1f2937 !important;
+}
+
+/* Asegurar que los valores mostrados en inputs sean legibles */
+input[value], 
+textarea[value] {
+  color: #1f2937 !important;
+}
+
+/* Forzar contraste en todos los inputs de la aplicación */
+input, textarea, select {
+  color: #1f2937 !important;
+  font-weight: 500 !important;
+}
+
+/* Asegurar que los valores de los inputs sean visibles */
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]) {
+  color: #1f2937 !important;
+  font-weight: 500 !important;
+}
+
+/* Mejorar contraste en formularios específicos */
+.space-y-4 input,
+.space-y-4 textarea {
+  color: #1f2937 !important;
+}
+
+/* Asegurar que los inputs en grid también tengan buen contraste */
+.grid input,
+.grid textarea {
+  color: #1f2937 !important;
+}
